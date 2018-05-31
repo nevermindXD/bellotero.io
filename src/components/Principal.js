@@ -1,20 +1,13 @@
 import React,{Component} from 'react';
 import {
-    Row,
-    Col,
-    Container,
     Collapse,
     Navbar,
     NavbarToggler,
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem } from 'reactstrap';
-
+    NavLink} from 'reactstrap';
+import '../styles/principal.scss';
 
 export default class Principal extends Component{
     constructor(props){
@@ -35,35 +28,30 @@ export default class Principal extends Component{
 
     render(){
         return(
-            <div>
-                <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">reactstrap</NavbarBrand>
+            <div >
+                <Navbar expand="md" className="nav">
+                    <NavbarBrand href="/">Bellotero.io</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="ml-auto" navbar>
+                        <Nav className="ml-auto">
                         <NavItem>
-                            <NavLink href="/components/">Components</NavLink>
+                            <NavLink href="/" className="menu-item">Features</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                            <NavLink href="/" className="menu-item">Solutions</NavLink>
                         </NavItem>
-                        <UncontrolledDropdown nav inNavbar>
-                            <DropdownToggle nav caret>
-                            Options
-                            </DropdownToggle>
-                            <DropdownMenu right>
-                            <DropdownItem>
-                                Option 1
-                            </DropdownItem>
-                            <DropdownItem>
-                                Option 2
-                            </DropdownItem>
-                            <DropdownItem divider />
-                            <DropdownItem>
-                                Reset
-                            </DropdownItem>
-                            </DropdownMenu>
-                        </UncontrolledDropdown>
+                        <NavItem>
+                            <NavLink href="/" className="menu-item">Stories</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/" className="menu-item">Partners</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/" className="menu-item">About</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/" className="menu-item">Blog</NavLink>
+                        </NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>
