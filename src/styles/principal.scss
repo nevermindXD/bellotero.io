@@ -1,9 +1,10 @@
-.nav{
+.bg {
+    width: auto;
     height: 60px;
-    background-color:#35374c;
+    background-color: #35374c;
 }
 .menu-item {
-    width: 70px;
+    width: 80px;
     height: 16px;
     font-family: Roboto;
     font-size: 14px;
@@ -14,4 +15,26 @@
     letter-spacing: 0.3px;
     text-align: left;
     color: rgba(255, 255, 255, 0.6);
+  }
+
+  .Bitmap {
+    width: auto;
+    height: 640px;
+    background-color: #35374c;
+  }
+
+  .Rectangle-4 {
+    width: auto;
+    height: 100px;
+    background-color: #fafafc;
+    background-color: var(--pale-grey-two);
+    box-shadow: inset 0 1px 0 0 #e5e5e5, inset 0 -1px 0 0 #e5e5e5;
+    box-shadow: inset 0 1px 0 0 var(--white-two), inset 0 -1px 0 0 var(--white-two);
+  }
+
+  .Belloterioio-1280 {
+    width: auto;
+    height: 4430px;
+    background-color: #ffffff;
+    background-color: var(--white-four);
   }

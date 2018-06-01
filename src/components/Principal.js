@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import {
+    Container,
     Collapse,
     Navbar,
     NavbarToggler,
@@ -28,8 +29,8 @@ export default class Principal extends Component{
 
     render(){
         return(
-            <div >
-                <Navbar expand="md" className="nav">
+            <div>
+                <Navbar expand="md" className="bg">
                     <NavbarBrand href="/">Bellotero.io</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
@@ -55,6 +56,19 @@ export default class Principal extends Component{
                         </Nav>
                     </Collapse>
                 </Navbar>
+                <Container fluid className="Bitmap">
+
+
+                </Container>
+                <Container fluid className="Rectangle-4">
+
+
+                </Container>
+                <Container fluid className="Belloterioio-1280">
+
+
+                </Container>
+                
             </div>
         )
     }
