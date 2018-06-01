@@ -7,7 +7,8 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink} from 'reactstrap';
+    NavLink,
+    Button} from 'reactstrap';
 import '../styles/principal.scss';
 
 export default class Principal extends Component{
@@ -52,6 +53,12 @@ export default class Principal extends Component{
                         </NavItem>
                         <NavItem>
                             <NavLink href="/" className="menu-item">Blog</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <Button>Request a demo</Button>
+                        </NavItem>
+                        <NavItem>
+                            <Button>Log In</Button>
                         </NavItem>
                         </Nav>
                     </Collapse>
