@@ -17,6 +17,12 @@
     color: rgba(255, 255, 255, 0.6);
   }
 
+  .bellotero-logo {
+    width: 119px;
+    height: 26px;
+    object-fit: contain;
+  }
+
   .Bitmap {
     width: auto;
     height: 640px;
@@ -37,4 +43,10 @@
     height: 4430px;
     background-color: #ffffff;
     background-color: var(--white-four);
+  }
+  
+  .Rectangle-8 {
+    width: auto;
+    height: 440px;
+    background-color: #35374c;
   }

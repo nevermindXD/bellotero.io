@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 import {
+    Row,
+    Col,
     Container,
     Collapse,
     Navbar,
@@ -65,7 +67,11 @@ export default class Principal extends Component{
 
                 </Container>
                 <Container fluid className="Belloterioio-1280">
-
+                        <Row>
+                            <Col xl={4} lg={4} mg={4} xs={12}><img alt="1" src={"https://res.cloudinary.com/dfm5xzcsq/image/upload/v1527968195/photo-3.png"}  /></Col>
+                            <Col xl={4} lg={4} mg={4} xs={12}>1</Col>
+                            <Col xl={4} lg={4} mg={4} xs={12}>1</Col>
+                        </Row>
 
                 </Container>
                 
