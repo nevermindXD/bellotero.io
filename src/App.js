@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {Route,Switch} from 'react-router-dom';
-import {Principal} from './components'
+import {Principal,Abc} from './components'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
@@ -9,7 +9,8 @@ class App extends Component {
     return (
       <main>
         <Switch>
-          <Route path="/" component={Principal} />
+          <Route exact path="/" component={Principal} />
+          <Route path="/test" component={Abc}/>
         </Switch>
       </main>
     );
