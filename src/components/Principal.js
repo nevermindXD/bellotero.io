@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 
-// import MyNavbar from './Navbar';
+import MyNavbar from './Navbar';
 import Main from "./Main";
 // import Companies from './Companies';
 // import Description from './Description';
@@ -17,12 +17,10 @@ export default class Principal extends Component{
     render(){
         return(
             <div>
-                
+                <MyNavbar/>
                 <Main/>
                  
                 {/* 
-                <Main/>
-                <MyNavbar/>
                 <Description/>
                 <Companies/>
                 <Description/>

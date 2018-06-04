@@ -33,18 +33,24 @@ const MyNavbar = () =>{
                { 
                    navLinks.map(navLink => {
                     return (
-                            <NavItem>
+                            <NavItem >
                                 <NavLink href="/" className="menu-item">{navLink}</NavLink>
                             </NavItem>
                         )
                     })
                 }
-                    <NavItem>
-                        <NavLink href="/" className=""><Button className="buttonRequest">Request a demo</Button></NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="/" className=""><Button>Log In</Button></NavLink>
-                    </NavItem>
+                <NavItem>
+                    <Button className="buttonRequest" color="buttonRequest">Request a demo</Button>
+                </NavItem>
+                <NavItem>
+                    <Button outline>Log In</Button>
+                </NavItem>
+                    {/* <NavItem>
+                        <NavLink href="/" className="menu-itemButton"><Button className="buttonRequest" color="buttonRequest">Request a demo</Button></NavLink>
+                    </NavItem> */}
+                    {/* <NavItem>
+                        <NavLink href="/" className=""><Button outline >Log In</Button></NavLink>
+                    </NavItem> */}
                 </Nav>
         </Navbar>
     )
