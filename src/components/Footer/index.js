@@ -30,12 +30,13 @@ const Footer = () => {
         <Container fluid className='footer'>
             <Row >
                 {
-                    columns.map(column => (
+                    columns.map((column,i) => (
                         <Col className='text-footer'
                             xl={{size: column.size, offset: column.offset }} 
                             lg={{size: column.size, offset: column.offset }} 
                             md={{size: column.size, offset: column.offset }} 
-                            xs={12} > 
+                            xs={12} 
+                            key={i}> 
                             {column.name} 
                             </Col>
                         )

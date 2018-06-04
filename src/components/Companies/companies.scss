@@ -1,6 +1,8 @@
 @import '../../variables.scss';
 
-
+.a1{
+  width:900px;
+}
 
 
 .Rectangle-4 {
@@ -12,9 +14,21 @@
 
   
   .logo1 {
+    margin-left: 30%;
     width: 140px;
     height: 80px;
     object-fit: contain;
     background-color: #ffffff;
   }
 
+  .logo2 {
+    margin-left: 2%;
+    width: 140px;
+    height: 80px;
+    object-fit: contain;
+    background-color: #ffffff;
+  }
+
+  .rowCompanies{
+    padding-top: 0.5%;
+  }

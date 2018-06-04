@@ -2,11 +2,11 @@ import React,{ Component } from 'react';
 
 import MyNavbar from './Navbar';
 import Main from "./Main";
-// import Companies from './Companies';
+import Companies from './Companies';
 import Description from './Description';
-// import Percentage from './Percentage';
-// import Customers from './Customers';
-// import Calculator from './Calculator';
+import Percentage from './Percentage';
+import Customers from './Customers';
+import Calculator from './Calculator';
 import Ready from './Ready';
 import Sitemap from './Sitemap'
 import Footer from './Footer'
@@ -19,7 +19,11 @@ export default class Principal extends Component{
             <div>
                 <MyNavbar/>
                 <Main/>
+                <Companies/>
                 <Description/>
+                <Percentage/>
+                <Customers/>
+                <Calculator/>
                 <Ready/>
                 <Sitemap/> 
                 <Footer/>

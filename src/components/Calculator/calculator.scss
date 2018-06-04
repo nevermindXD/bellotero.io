@@ -1,7 +1,144 @@
+@import '../../variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300');
+
 .Calc {
     width: auto;
     height: 675px;
     background-color: #ffffff;
   }
 
+  .See-how-much-you-can {
+    width: 299px;
+    height: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: $black
+  }
+
+
+  .With-Belloteroio-yo {
+    width: 465px;
+    height: 112px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: $some-grey;
+  }
   
+
+  .Monthly-ingredient-s {
+    width: 219px;
+    height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000019;
+  }
+
+  .Your-estimated-annua {
+    width: 217px;
+    height: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: $black
+  }
+
+  .priceSymbol {
+    width: 20px;
+    height: 44px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: $green-blue;
+  }
+
+  .priceNumber {
+    width: 137px;
+    height: 64px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 64px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: right;
+    color: $green-blue;
+  }
+
+  .numb {
+    
+    width: 86px;
+    height: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: $black;
+  }
+  
+  .rowCalculator{
+    padding-top: 5%
+  }
+  .numbers{
+    padding-top: 20%;
+  }
+
+  .Rectangle {
+    width: auto;
+    height: 65px;
+    border-radius: 2px;
+    background-color: $white-four;
+    border: solid 1px $pinkish-grey;
+  }
+  
+  .Full-time-employees {
+    width: 465px;
+    height: 28px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000019;
+  }
+
+  .prue{
+    padding-top: 2%;
+    padding-left: 3%;
+  }
+

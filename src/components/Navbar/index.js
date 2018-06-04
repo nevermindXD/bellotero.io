@@ -31,19 +31,21 @@ const MyNavbar = () =>{
             <NavbarToggler />
                 <Nav className="ml-auto">        
                { 
-                   navLinks.map(navLink => {
+                   navLinks.map((navLink,i) => {
                     return (
-                            <NavItem >
-                                <NavLink href="/" className="menu-item">{navLink}</NavLink>
+                            <NavItem key={i}>
+                                <NavLink  href="/" className="menu-item">{navLink}</NavLink>
                             </NavItem>
                         )
                     })
                 }
-                <NavItem>
-                    <Button className="buttonRequest" color="buttonRequest">Request a demo</Button>
+                <NavItem className="menu-itemB">
+                    <Button className="buttonRequest" color="buttonRequest">
+                        <span className="textButtonRequest">Request a demo</span>
+                    </Button>
                 </NavItem>
-                <NavItem>
-                    <Button outline>Log In</Button>
+                <NavItem >
+                    <Button outline ><span className="textButtonRequest">Log In</span></Button>
                 </NavItem>
                     {/* <NavItem>
                         <NavLink href="/" className="menu-itemButton"><Button className="buttonRequest" color="buttonRequest">Request a demo</Button></NavLink>
