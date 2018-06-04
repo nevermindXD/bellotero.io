@@ -1,6 +1,62 @@
+@import '../../variables.scss';
+
 .Rectangle-11 {
     width: auto;
     height: 400px;
     background-color: #00b896;
     box-shadow: inset 0 1px 0 0 #1874bf;
   }
+
+  .Ready-to-get-started {
+    width: 384px;
+    height: 120px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    text-align: left;
+    color: $white-four;
+    padding: 10%;
+  }
+  
+  .Ready-to-get-started .text-style-1 {
+    color: $white-four-50;
+  }
+
+
+.No-more-manual-data {
+  width: 358px;
+  height: 72px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.88);
+  padding: 10%;
+}
+
+.buttonReady{
+  width: 142px;
+  height: 42px;
+  border-radius: 2px;
+  background-color: $bluegreen;
+  border: solid 1px #005d4b;
+}
+
+.colorBorder{
+  border-color: #005d4b;
+}
+
+
+
+input[type="text"][name=readyIn], textarea  {
+  background-color: rgba(0, 93, 76, 0.39);
+  border: solid 1px #005d4c;
+}

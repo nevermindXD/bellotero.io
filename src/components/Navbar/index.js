@@ -6,7 +6,8 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink } from 'reactstrap';
+    NavLink,
+    Button } from 'reactstrap';
 
 
 const MyNavbar = () =>{
@@ -38,6 +39,12 @@ const MyNavbar = () =>{
                         )
                     })
                 }
+                    <NavItem>
+                        <NavLink href="/" className=""><Button className="buttonRequest">Request a demo</Button></NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/" className=""><Button>Log In</Button></NavLink>
+                    </NavItem>
                 </Nav>
         </Navbar>
     )

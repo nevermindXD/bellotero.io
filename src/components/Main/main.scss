@@ -1,5 +1,67 @@
+@import '../../variables.scss';
+
 .Bitmap {
     width: auto;
     height: 640px;
-    background-color: #34374c;
+    background-color: $dark-light;
 }
+
+.hero-mockup {
+    width: 800px;
+    height: 450px;
+    object-fit: contain;
+    margin-top: 15%;
+}
+
+
+.Digitize-your-invoic {
+    width: 370px;
+    height: 181px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    text-align: left;
+    color: $white-four;
+    margin-top: 40%;
+  }
+  
+  .Digitize-your-invoic .text-style-1 {
+    font-weight: 300;
+  }
+
+  input[type="text"][name=mainIn], textarea  {
+    background-color: #1d1f35;
+    border-color:#1d1f35; 
+  }
+  
+  .inputMain {
+    width: 275px;
+    height: 42px;
+    border-radius: 2px;
+  }
+
+  .buttonMain {
+    width: 127px;
+    height: 42px;
+    border-radius: 2px;
+    background-color: $green-blue;
+    border: solid 1px $teal;
+  }
+
+  .label1 {
+    width: 87px;
+    height: 12px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: $white-four;
+  }

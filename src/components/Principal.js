@@ -1,17 +1,15 @@
 import React,{ Component } from 'react';
 
-
-import Sitemap from './Sitemap'
-// import Footer from './Footer'
-import MyNavbar from './Navbar';
-import Percentage from './Percentage';
+// import MyNavbar from './Navbar';
 import Main from "./Main";
-import Companies from './Companies';
-import Ready from './Ready';
-import Calculator from './Calculator';
-import Customers from './Customers';
-import Description from './Description';
-
+// import Companies from './Companies';
+// import Description from './Description';
+// import Percentage from './Percentage';
+// import Customers from './Customers';
+// import Calculator from './Calculator';
+ import Ready from './Ready';
+// import Sitemap from './Sitemap'
+import Footer from './Footer'
 
 
 export default class Principal extends Component{
@@ -19,17 +17,23 @@ export default class Principal extends Component{
     render(){
         return(
             <div>
-                <MyNavbar/>
+                
                 <Main/>
+                 
+                {/* 
+                <Main/>
+                <MyNavbar/>
+                <Description/>
                 <Companies/>
                 <Description/>
-                <Percentage/>
                 <Customers/>
                 <Calculator/>
+                <Sitemap /> 
+                <Footer />
+                <Percentage/>
+                <Ready/> */}
                 <Ready/>
-                <Sitemap />
-                {/* <Footer /> */}
-                
+                <Footer />
             </div>
         )
     }

@@ -1,7 +1,8 @@
 import React from 'react'
 import { 
     Col,
-    Row
+    Row,
+    Container
 } from 'reactstrap'
 
 import './footer.scss'
@@ -20,14 +21,14 @@ const Footer = () => {
         }
         ,
         {
-            size: 1,
+            size: 2,
             offset: 0,
             name: 'Terms of Service'
         }
     ]
     return (
-        <div className='footer'>
-            <Row fluid>
+        <Container fluid className='footer'>
+            <Row >
                 {
                     columns.map(column => (
                         <Col className='text-footer'
@@ -41,7 +42,7 @@ const Footer = () => {
                     )
                 }
             </Row>
-        </div>
+        </Container>
     )
 }
 
