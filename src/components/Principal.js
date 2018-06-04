@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React,{Component} from 'react';
 import {
     Container,
@@ -10,27 +11,28 @@ import {
     NavLink,
     Button} from 'reactstrap';
 import '../styles/principal.scss';
+=======
+import React,{ Component } from 'react';
+>>>>>>> e13d5d955196c6baddee76af5b38565e12aac07a
+
+import MyNavbar from './Navbar';
+import Main from "./Main";
+// import Companies from './Companies';
+// import Description from './Description';
+// import Percentage from './Percentage';
+// import Customers from './Customers';
+// import Calculator from './Calculator';
+ import Ready from './Ready';
+// import Sitemap from './Sitemap'
+import Footer from './Footer'
+
 
 export default class Principal extends Component{
-    constructor(props){
-        super(props)
-        this.state = {
-            open: false
-        };
-
-        this.toggle = this.toggle.bind(this);
-    }
-
-    toggle() {
-        this.setState({
-          isOpen: !this.state.isOpen
-        });
-      }
-
-
+    
     render(){
         return(
             <div>
+<<<<<<< HEAD
                 <Navbar expand="md" className="bg">
                     <NavbarBrand href="/">Bellotero.io</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
@@ -76,7 +78,25 @@ export default class Principal extends Component{
 
                 </Container>
                 
+=======
+                <MyNavbar/>
+                <Main/>
+                 
+                {/* 
+                <Description/>
+                <Companies/>
+                <Description/>
+                <Customers/>
+                <Calculator/>
+                <Sitemap /> 
+                <Footer />
+                <Percentage/>
+                <Ready/> */}
+                <Ready/>
+                <Footer />
+>>>>>>> e13d5d955196c6baddee76af5b38565e12aac07a
             </div>
         )
     }
 }
+

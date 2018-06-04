@@ -1,0 +1,29 @@
+.PhotoPercentage1{
+    height: 400px;
+    width: auto;
+    object-fit: contain;
+    background-image: url('https://res.cloudinary.com/dfm5xzcsq/image/upload/v1527956518/photo-3_3x.png') ;
+    background-size: 100% 100%;  
+    border: none;  
+    background-color: green;
+}
+
+.PhotoPercentage2{
+    height: 400px;
+    object-fit: contain;
+    background-image: url('https://res.cloudinary.com/dfm5xzcsq/image/upload/v1527956518/photo-2_3x.png');
+    background-size: 100% 100%;
+    border: none;
+    background-color: red;
+}
+
+.PhotoPercentage3{
+    height: 400px;
+    object-fit: contain;
+    background-image: url('http://res.cloudinary.com/dfm5xzcsq/image/upload/v1527956518/photo-1_3x.png');
+    background-size: 100% 100%;
+    background-color: blue;
+}
+
+
+

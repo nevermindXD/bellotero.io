@@ -1,0 +1,42 @@
+@import '../../variables.scss';
+
+
+.bg {
+    width: auto;
+    height: 60px;
+    background-color: #35374c;
+}
+
+
+.menu-item {
+    width: 80px;
+    height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+ 
+
+  .bellotero-logo {
+    width: 119px;
+    height: 26px;
+    left: 20px;
+    object-fit: contain;
+  }
+
+
+
+  .buttonRequest{
+    width: 120px;
+    height: 34px;
+    border-radius: 2px;
+    background-color: $green-blue;
+    border: solid 1px $teal;
+  }

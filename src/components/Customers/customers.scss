@@ -1,0 +1,19 @@
+.Rectangle-6 {
+    width: auto;
+    height: 713px;
+    background-color: #fafafc;
+  }
+
+  .carousel {
+    width: 500px;
+    height: 355px;
+    margin: auto;
+  }
+
+
+  @media (max-width: 900px) {
+    .carousel {
+      width:auto;
+      height:auto;
+    }
+}
