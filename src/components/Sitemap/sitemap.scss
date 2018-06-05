@@ -44,7 +44,7 @@
   }
 
   .SubSitemap:hover {
-    width: 40px;
+    width: 130px;
     height: 16px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -65,4 +65,12 @@
 
   .RowSiteMap{
     padding-top: 8%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .sitemap {
+      width: auto;
+      height: 550px;
+      background-color: #35374c;
+    }
   }

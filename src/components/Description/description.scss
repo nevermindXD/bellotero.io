@@ -6,7 +6,7 @@
     background-color: $white-four;;
 }
 
-.Belloteroio-is-the {
+  .Belloteroio-is-the {
     width: 467px;
     height: 144px;
     font-family: 'Roboto', sans-serif;
@@ -117,3 +117,24 @@
       padding-top: 8%;
   }
   
+  @media only screen and (max-width: 600px) {
+    .Belloteroio-is-the {
+      width: 100%;
+      height: auto;
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: $black-two;
+    }
+
+    .Description {
+      width: auto;
+      height: 1400px;
+      background-color: $white-four;;
+    }
+  }

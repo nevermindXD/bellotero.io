@@ -50,14 +50,14 @@ const Companies = () => {
 
     return (
         <Container fluid className='Rectangle-4'>
-            <Row fluid className='rowCompanies'>
+            <Row  className='rowCompanies'>
                 {
-                    logos.map(logo => (
+                    logos.map((logo,i) => (
                         <Col
                             xl={{size: logo.size, offset: logo.offset }} 
                             lg={{size: logo.size, offset: logo.offset }} 
                             md={{size: logo.size, offset: logo.offset }} 
-                            xs={6} className='a1'> 
+                            xs={6} className='a1' key={i}> 
                             <img src={logo.image} alt='' className={logo.classImg}/>
                             </Col>
                         )

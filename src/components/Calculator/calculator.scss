@@ -1,7 +1,7 @@
 @import '../../variables.scss';
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300');
 
-.Calc {
+  .Calc {
     width: auto;
     height: 675px;
     background-color: #ffffff;
@@ -94,7 +94,6 @@
   }
 
   .numb {
-    
     width: 86px;
     height: 36px;
     font-family: 'Roboto', sans-serif;
@@ -142,3 +141,42 @@
     padding-left: 3%;
   }
 
+  @media only screen and (max-width: 600px) {
+    .Calc {
+      width: auto;
+      height: 1100px;
+      background-color: #ffffff;
+    }
+
+    .With-Belloteroio-yo {
+      width: auto;
+      height: auto;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: $some-grey;
+    }
+
+    .Full-time-employees {
+      width: auto;
+      height: 28px;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000019;
+    }
+
+    .numbers{
+      padding-top: 30%;
+    }
+  }

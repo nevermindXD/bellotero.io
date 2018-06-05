@@ -8,8 +8,6 @@ export default class Calculator extends Component{
         this.state = {
             ingredient:10,
             employees:1,
-            costSavings:0,
-            annual:0
         };
     }
 
@@ -21,7 +19,7 @@ export default class Calculator extends Component{
 
 
     render(){
-        let  costSavigs = this.state.ingredient * 0.3
+        let costSavigs = this.state.ingredient * 0.3
         let annual = this.state.employees * 1337 + costSavigs;
         
         costSavigs = costSavigs.toFixed(3);
@@ -51,7 +49,7 @@ export default class Calculator extends Component{
                         </p>
                         <div className="Rectangle"> 
                             <div className="prue">
-                                <span class="numb">{this.state.ingredient}</span>
+                                <span className="numb">{this.state.ingredient}</span>
                             </div>
                             <Input 
                                     type="range" 
@@ -69,7 +67,7 @@ export default class Calculator extends Component{
                         </p>
                         <div className="Rectangle"> 
                             <div className="prue">
-                                <span class="numb">{this.state.employees}</span>
+                                <span className="numb">{this.state.employees}</span>
                             </div>
                             <Input 
                                     type="range" 

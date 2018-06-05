@@ -14,7 +14,7 @@ const Main = () => {
                     xl={{size: 4, offset: 1 }}
                     lg={{size: 4, offset: 1 }}
                     mg={{size: 4, offset: 1 }}
-                    xs={12}>
+                    xs={12} >
                    <p className="Digitize-your-invoic ">
                         Digitize your invoices <br/>
                         <span className="text-style-1">

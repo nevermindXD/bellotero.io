@@ -35,7 +35,7 @@ const Footer = () => {
                             xl={{size: column.size, offset: column.offset }} 
                             lg={{size: column.size, offset: column.offset }} 
                             md={{size: column.size, offset: column.offset }} 
-                            xs={12} 
+                            xs={4} 
                             key={i}> 
                             {column.name} 
                             </Col>

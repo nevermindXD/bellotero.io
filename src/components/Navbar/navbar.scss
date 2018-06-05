@@ -53,3 +53,13 @@
     text-align: center;
     color: $white-four;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .bg {
+      width: auto;
+      height: auto;
+      background-color: #35374c;
+    }
+
+  }

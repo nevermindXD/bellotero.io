@@ -47,8 +47,9 @@ const Percentage = () => {
                                         lg={4} 
                                         mg={4} 
                                         xs={12} 
-                                        className={cont.class}>
-                                        <p class="centerText" align="center">
+                                        className={cont.class}
+                                        key={i}>
+                                        <p className="centerText" align="center">
                                             <span className="layer">{cont.num}</span>
                                             <span className="layerPer">{cont.sym}</span><br/>
 
