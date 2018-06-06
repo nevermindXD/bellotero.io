@@ -35,7 +35,7 @@ const Main = () => {
                     lg={5}
                     mg={5}
                     xs={12}>
-                    <img alt="" src={"https://res.cloudinary.com/dfm5xzcsq/image/upload/v1527968192/hero-mockup_2x.png"} className="hero-mockup"/>
+                    <img alt="" src={require('../../img/hero-mockup@2x.png')} className="hero-mockup"/>
                 </Col>
             </Row>
         </Container>

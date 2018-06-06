@@ -42,7 +42,7 @@ export default class MyNavbar extends Component{
             <Navbar expand="md" className="bg">
                 <NavbarBrand href="/">
                     <img   
-                        src={"http://res.cloudinary.com/dfm5xzcsq/image/upload/v1527827909/bellotero-logo_3x.png"} 
+                        src={require('../../img/bellotero-logo.svg')} 
                         alt="bellotero logo"
                         className="bellotero-logo"/>
                 </NavbarBrand>

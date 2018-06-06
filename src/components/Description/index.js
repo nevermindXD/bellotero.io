@@ -40,7 +40,7 @@ const Description = () => {
                     lg={7}
                     mg={7}
                     xs={12}>
-                    <img alt="" className="intro-img-1" src={"https://res.cloudinary.com/dfm5xzcsq/image/upload/v1527956516/intro-img-1_3x.png"} />
+                    <img alt="" className="intro-img-1" src={require('../../img/intro-img-1@3x.png')} />
                 </Col>
                 </Row>
                 <Row className="MacRow">
@@ -49,7 +49,7 @@ const Description = () => {
                         lg={{size: 6, offset: 1 }}
                         mg={{size: 6, offset: 1 }}
                         xs={12}>
-                        <img alt="" src={"https://res.cloudinary.com/dfm5xzcsq/image/upload/v1527956516/intro-img-2_3x.png"} className="intro-img-2"/>
+                        <img alt="" src={require('../../img/intro-img-2@3x.png')} className="intro-img-2"/>
                 </Col>
                 <Col className="MacRight"
                     xl={5}
