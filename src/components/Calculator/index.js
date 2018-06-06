@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './calculator.scss';
-import {Row, Col,Container,Input} from 'reactstrap';
+import {Row, Col,Container} from 'reactstrap';
 
 export default class Calculator extends Component{
     constructor(props){
@@ -19,9 +19,9 @@ export default class Calculator extends Component{
 
 
     render(){
-        let costSavigs = this.state.ingredient * 0.3
-        let annual = this.state.employees * 1337 + costSavigs;
-        
+        const {employees,ingredient} = this.state
+        let costSavigs = ingredient * 0.3
+        let annual = employees * 1337 + costSavigs;
         costSavigs = costSavigs.toFixed(3);
 
         return (
@@ -47,37 +47,30 @@ export default class Calculator extends Component{
                         <p className="Monthly-ingredient-s">
                                 Monthly ingredient spending
                         </p>
-                        <div className="Rectangle"> 
+                        <div className="Rectangle">
                             <div className="prue">
-                                <span className="numb">{this.state.ingredient}</span>
+                                <span className="numb">{ingredient}</span>
                             </div>
-                            <Input 
-                                    type="range" 
-                                    name="ingredient" 
-                                    id="ingredient" 
-                                    min="10" 
-                                    max="100" 
-                                    className="rangeInput"
-                                    value={this.state.ingredient} 
-                                    onChange={this.getValue}/>
+                            <div class="slidecontainer">
+                               <span style={{width:`${ingredient-5}%`}} className="marker"/>
+                                <input onChange={this.getValue} value={ingredient}
+                                  type="range" name="ingredient" min="10" max="100" class="slider" id="ingredient"/>
+                              </div>
                         </div>
                         <br/>
                         <p className="Full-time-employees">
                             Full-time employees that process invoices
                         </p>
-                        <div className="Rectangle"> 
+                        <div className="Rectangle">
                             <div className="prue">
-                                <span className="numb">{this.state.employees}</span>
+                                <span className="numb">{employees}</span>
                             </div>
-                            <Input 
-                                    type="range" 
-                                    name="employees" 
-                                    id="employees" 
-                                    min="1" 
-                                    max="10" 
-                                    className="rangeInput"
-                                    value={this.state.employees} 
-                                    onChange={this.getValue}/>
+                            <div class="slidecontainer">
+                              <span style={{width:`${(employees*10)-5}%`}} className="marker"/>
+                                <input onChange={this.getValue} value={employees}
+                                  // style={{background:bg_empl}}
+                                   type="range" name="employees" min="1" max="10" class="slider" id="employees"/>
+                              </div>
                         </div>
                     </Col>
                     <Col className="numbers"
